@@ -43,4 +43,4 @@ Shecktar Password Generator is licensed under the MIT License. See the [LICENSE]
 
 ## Feedback 📮
 
-If you have any questions, suggestions, or feedback, please feel free to contact me at shecktar@gmail.com. I would love to hear from you and improve the app. Thank you for using Shecktar Password Generator. 😊
+If you have any questions, suggestions, or feedback, please feel free to contact me at shecktarayo@gmail.com. I would love to hear from you and improve the app. Thank you for using Shecktar Password Generator. 😊
