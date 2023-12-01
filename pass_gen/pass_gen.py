@@ -104,7 +104,7 @@ def main():
     print("Welcome to Shecktar Password Generator, a Python application that generates strong and random passwords for you.")
     print("")
     # Ask the user for the length of the password
-    length = int(input("Enter the desired length of the password: "))
+    length = int(input("Please Enter the Desired length of the password: "))
     # If the length is zero, raise an exception
     if length == 0:
         raise ValueError("Invalid length. The length of the password cannot be zero.")
@@ -116,6 +116,7 @@ def main():
         # If the user chooses no, ask them to enter a new length
         if choice.lower() == "n":
             length = int(input("Enter a new length of the password: "))
+    print("")
     # Ask the user for the complexity of the password
     complexity = int(input("Enter the complexity of the password (1 for low, 2 for high, or 3 for very high): "))
     # Generate the password
@@ -123,7 +124,7 @@ def main():
     # Print the password
     print("Your password is:", password)
     print("")
-    print("Copy and save your password somewhere safe. Do not share your password with anyone or use it for multiple accounts. You can also generate a new password if you are not satisfied with the current one.")
+    print("Copy and save your password somewhere safe. Do not share your password with anyone or use it for multiple accounts. You can also generate a new password if you are not satisfied with the current one")
 
 # Call the main function
 if __name__ == "__main__":
